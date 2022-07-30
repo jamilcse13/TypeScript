@@ -22,4 +22,16 @@
 - install nide.js
 - install TypeScript compiler
     - npm i -g typescript
-    
+
+** Project Setup:
+- create ts project, run
+    - tsc --init
+    - it will create a tsconfig.json file
+- make 2 directory
+    - src: where ts files are stored
+    - output: where generated js files are stored
+- register those directory to the tsconfig.json file at-
+    - rootDir: src
+    - outDir: output
+- automate the compilation while any changes occured in any file, run
+    - tsc -w
