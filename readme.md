@@ -35,3 +35,7 @@
     - outDir: output
 - automate the compilation while any changes occured in any file, run
     - tsc -w
+
+### Aliases:
+- We can create out custom type and use it anywhere in the code
+- It will reduce the code redundency
