@@ -39,3 +39,7 @@
 ### Aliases:
 - We can create out custom type and use it anywhere in the code
 - It will reduce the code redundency
+
+### Access modifier
+- private: we can not access or change it outside the class
+- readonly: we can access it outside the class but can not change it
