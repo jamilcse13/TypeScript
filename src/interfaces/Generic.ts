@@ -1,14 +1,17 @@
 // we restict the data type in object by generic way
+
+// enum
+enum RType {SUCCESS, FAILURE, FORBIDDEN}
 interface APIResponse <T> {
     status: number;
-    type: string;
+    type: RType;
     data: T;
 }
 
 // we define the generic type as object
 const response1: APIResponse <object> = {
     status: 200,
-    type: 'good',
+    type: RType.FAILURE,
     data: {
         id: 1,
         name: 'abc'
